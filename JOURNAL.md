@@ -24,4 +24,10 @@
 
 Looked at the Esspresif docs and built the essential ESP32-WROOM-1 circuitry, this being power, and the boot and res buttons. Next I'll start with the battery circuitry
 
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XiWZo7lp1TFc1CqsWMLph96FkDHI6ohS/8cacb27a164e545beda6e3d167c5a385f91b6a3486b913bcf2aea6a6c15ba840.png)
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XiWZo7lp1TFc1CqsWMLph96FkDHI6ohS/8a04fc1936785ef38fe0a72d940700812d03026a3f086863c405b26941d0093b.png)
+
+![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/XiWZo7lp1TFc1CqsWMLph96FkDHI6ohS/b2e6006118896668433064550fe957abb0f1701b45599dcda33959bfa6bfa3e7.png)
+
 [Timelapse](https://lookout.hackclub.com/api/media/7b0f315d-0e17-44d4-b8b2-1c39a7f0df4d/video.mp4)
