@@ -10,18 +10,18 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 3 | 0.93h | 1 |
+| Week 1 | Tier 3 | 1.03h | 1 |
 
 ## Contents
 
-1. [2026-10-07 — Work session](#2026-10-07-work-session)
+1. [2026-10-07 — Looked at the Esspresif docs and built the essential ESP32-WROOM-1 circuitry, this being power, and the boot and res buttons. Next I'll start with the battery circuitry](#2026-10-07-looked-at-the-esspresif-docs-and-built-the-essent)
 
 ## Design
 
-### 2026-10-07 — Work session
+### 2026-10-07 — Looked at the Esspresif docs and built the essential ESP32-WROOM-1 circuitry, this being power, and the boot and res buttons. Next I'll start with the battery circuitry
 
-**0.93h**
+**1.03h**
 
-Work session
+Looked at the Esspresif docs and built the essential ESP32-WROOM-1 circuitry, this being power, and the boot and res buttons. Next I'll start with the battery circuitry
 
 [Timelapse](https://lookout.hackclub.com/api/media/7b0f315d-0e17-44d4-b8b2-1c39a7f0df4d/video.mp4)
