@@ -1507,6 +1507,185 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:S2B-PH-SM4-TB(LF)(SN)"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "CN"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C295747_CONN-SMD_P2_00_S2B-PH-SM4-TB-LF-SN"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "S2B-PH-SM4-TB(LF)(SN)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C295747"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "JST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S2B-PH-SM4-TB(LF)(SN)_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 -6.35 90)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 3.81 6.35 270)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:TYPE-C_16PIN_2MD(073)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2055,7 +2234,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 63.5 25.4)
+			(xy 36.83 40.64) (xy 27.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb34f07-5625-44c2-a04b-0fe91add0420")
+	)
+	(wire
+		(pts
+			(xy 45.72 21.59) (xy 54.61 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2115,6 +2304,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 38.1) (xy 27.94 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429ee1ff-9637-4f0a-af21-15d9df4dd591")
+	)
+	(wire
+		(pts
 			(xy 194.31 78.74) (xy 194.31 81.28)
 		)
 		(stroke
@@ -2132,6 +2331,16 @@
 			(type default)
 		)
 		(uuid "4ea4de1e-fa8f-4c82-84df-d9a81fd7cd93")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 27.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57af3cd9-aba8-4865-8c2b-9d4a0ce6a0cb")
 	)
 	(wire
 		(pts
@@ -2155,7 +2364,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 22.86) (xy 41.91 22.86)
+			(xy 27.94 35.56) (xy 36.83 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8765b9-af02-4699-bb57-9d34989056cb")
+	)
+	(wire
+		(pts
+			(xy 36.83 21.59) (xy 27.94 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 20.32) (xy 45.72 20.32)
+			(xy 29.21 19.05) (xy 31.75 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 19.05) (xy 43.18 20.32)
+			(xy 29.21 17.78) (xy 29.21 19.05)
 		)
 		(stroke
 			(width 0)
@@ -2215,7 +2434,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 19.05) (xy 41.91 19.05)
+			(xy 29.21 17.78) (xy 27.94 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2484,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 26.67) (xy 45.72 26.67)
+			(xy 27.94 25.4) (xy 31.75 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2295,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 22.86) (xy 63.5 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40e19a5-f370-4016-8b7c-aefccb02a450")
-	)
-	(wire
-		(pts
 			(xy 138.43 62.23) (xy 138.43 81.28)
 		)
 		(stroke
@@ -2312,6 +2521,36 @@
 			(type default)
 		)
 		(uuid "e5c6138e-d03f-4fb2-a5f4-53c077b99e67")
+	)
+	(wire
+		(pts
+			(xy 45.72 19.05) (xy 54.61 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec3bc869-e6c1-436f-b148-ae1ef1548432")
+	)
+	(wire
+		(pts
+			(xy 49.53 36.83) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f902818c-d3e0-473e-b804-ebb944102657")
+	)
+	(label "BAT_5V"
+		(at 36.83 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04d0d702-e4a2-407f-9794-be034de85fa6")
 	)
 	(label "VCC_5V"
 		(at 166.37 78.74 0)
@@ -2322,6 +2561,26 @@
 			(justify left bottom)
 		)
 		(uuid "29876712-8b43-431c-9671-fcf6f2e2ab4c")
+	)
+	(label "VCC_5V"
+		(at 36.83 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35605eb8-344e-4c6d-981c-4ad536d1cd1d")
+	)
+	(label "BAT_5V"
+		(at 45.72 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c07d233-5f3e-41b2-a008-7fbe49091bf9")
 	)
 	(label "ESP_3V3"
 		(at 138.43 62.23 270)
@@ -2334,7 +2593,7 @@
 		(uuid "45e30fdc-ffcb-4b2e-bab2-5e40417e0af4")
 	)
 	(label "IO0"
-		(at 45.72 26.67 180)
+		(at 31.75 25.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2352,6 +2611,16 @@
 			(justify left bottom)
 		)
 		(uuid "54e5b747-3175-40c8-9095-e16152e7ceea")
+	)
+	(label "VCC_3V3"
+		(at 36.83 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5dbbfaf7-50dd-482d-94d5-718854b03c4d")
 	)
 	(label "GND"
 		(at 158.75 127 180)
@@ -2372,6 +2641,16 @@
 			(justify right bottom)
 		)
 		(uuid "72fdb626-469b-4451-b4dd-d9996afcbaa8")
+	)
+	(label "BAT"
+		(at 36.83 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "746ed407-5d2f-4a8e-abc0-234b0d95296a")
 	)
 	(label "USB_D-"
 		(at 162.56 99.06 180)
@@ -2394,7 +2673,7 @@
 		(uuid "7a825a0f-cdd7-4dab-b427-bd36fd38b5c5")
 	)
 	(label "EN"
-		(at 45.72 20.32 180)
+		(at 31.75 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,6 +2681,16 @@
 			(justify right bottom)
 		)
 		(uuid "a1890504-9f10-4b46-a128-eb2d8fbfa2f2")
+	)
+	(label "BAT"
+		(at 49.53 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba70a901-0d9f-490a-a5de-c7225d0e3de1")
 	)
 	(label "USB_D+"
 		(at 162.56 96.52 180)
@@ -2424,7 +2713,7 @@
 		(uuid "c8ffa520-dd49-43a2-b7eb-d42ad7a0636b")
 	)
 	(label "ESP_3V3"
-		(at 50.8 22.86 180)
+		(at 36.83 21.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2434,7 +2723,7 @@
 		(uuid "d386eb86-230f-4080-8063-0987326cadb1")
 	)
 	(label "VCC_3V3"
-		(at 54.61 25.4 0)
+		(at 45.72 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2442,16 +2731,6 @@
 			(justify left bottom)
 		)
 		(uuid "d65346bb-f0a3-4c69-bd52-359d4ff96ee9")
-	)
-	(label "VCC_5V"
-		(at 54.61 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5e216e9-8dd7-453b-ba21-ece72c761246")
 	)
 	(label "USB_D-"
 		(at 179.07 63.5 180)
@@ -2462,6 +2741,84 @@
 			(justify right bottom)
 		)
 		(uuid "ee0b4e1b-d6a5-425a-aa91-c08b27c89f84")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 31.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cca746e-6cb0-4358-b1ae-e0d1eee471a3")
+		(property "Reference" "#PWR026"
+			(at 60.96 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62d81368-10d1-439b-83fe-314b0fb3767a")
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2922,6 +3279,163 @@
 			(project "PanTermPCB"
 				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 39.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "624967da-9d55-461f-b52a-edb28686fed4")
+		(property "Reference" "#PWR027"
+			(at 46.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "77ebc428-6987-4367-a9da-8378660c14ee")
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93eca955-716b-4221-86dd-cb5294051808")
+		(property "Reference" "#PWR025"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21db6ff3-562c-431d-a460-1f3b1dfc4a6d")
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3729,6 +4243,116 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc_imported:S2B-PH-SM4-TB(LF)(SN)")
+		(at 57.15 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f58c97d8-8196-4f27-9cad-823839227995")
+		(property "Reference" "CN1"
+			(at 63.5 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 63.5 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C295747_CONN-SMD_P2_00_S2B-PH-SM4-TB-LF-SN"
+			(at 57.15 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102031704_JST-S2B-PH-SM4-TB-LF-SN_C295747.pdf"
+			(at 54.864 37.973 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "S2B-PH-SM4-TB(LF)(SN)"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C295747"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "71021bbe-3408-4b5b-a1ed-9563ef88e6e5")
+		)
+		(pin "2"
+			(uuid "7475e820-4f06-49ef-af7d-d6ea6272c5a3")
+		)
+		(pin "4"
+			(uuid "63bfb279-506c-42be-a04f-eb84672983e3")
+		)
+		(pin "1"
+			(uuid "f7227da5-3c12-45a3-a978-bccc9384fa3e")
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
 		(at 138.43 109.22 0)
 		(unit 1)
@@ -4066,8 +4690,54 @@
 		)
 	)
 	(sheet
-		(at 15.24 17.78)
-		(size 26.67 10.16)
+		(at 36.83 92.71)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "56e32f75-fdc0-4e97-8670-09f2edcb07f6")
+		(property "Sheetname" "KeyBoard"
+			(at 36.83 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Keyboard.kicad_sch"
+			(at 36.83 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 16.51)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4082,7 +4752,7 @@
 		)
 		(uuid "63f38ff4-4738-4e2d-9cee-317b873694cb")
 		(property "Sheetname" "BOOT-RES"
-			(at 15.24 17.0684 0)
+			(at 15.24 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4093,7 +4763,7 @@
 			)
 		)
 		(property "Sheetfile" "BOOT-RES.kicad_sch"
-			(at 15.24 28.5246 0)
+			(at 15.24 27.2546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4104,7 +4774,7 @@
 			)
 		)
 		(pin "EN" input
-			(at 41.91 19.05 0)
+			(at 27.94 17.78 0)
 			(uuid "ed0e6d96-331e-4485-8828-d8efc6214dbc")
 			(effects
 				(font
@@ -4114,7 +4784,7 @@
 			)
 		)
 		(pin "IO0" bidirectional
-			(at 41.91 26.67 0)
+			(at 27.94 25.4 0)
 			(uuid "5aca68dd-826e-4663-95a5-a989b938a98b")
 			(effects
 				(font
@@ -4124,7 +4794,7 @@
 			)
 		)
 		(pin "ESP_3V3" input
-			(at 41.91 22.86 0)
+			(at 27.94 21.59 0)
 			(uuid "15d0f80b-1364-4ee7-8594-2180f81fdb2a")
 			(effects
 				(font
@@ -4142,7 +4812,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 20.32)
+		(at 54.61 16.51)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4158,7 +4828,7 @@
 		)
 		(uuid "cca776d7-8a39-4fb3-b8fc-b066a7735e34")
 		(property "Sheetname" "POWER"
-			(at 63.5 19.6084 0)
+			(at 54.61 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4169,7 +4839,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 63.5 28.5246 0)
+			(at 54.61 24.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4179,8 +4849,8 @@
 				(justify left top)
 			)
 		)
-		(pin "VCC_5V" input
-			(at 63.5 22.86 180)
+		(pin "BAT_5V" input
+			(at 54.61 19.05 180)
 			(uuid "eaf033c6-57b8-40a6-aa82-e83a211f88bf")
 			(effects
 				(font
@@ -4190,7 +4860,7 @@
 			)
 		)
 		(pin "VCC_3V3" input
-			(at 63.5 25.4 180)
+			(at 54.61 21.59 180)
 			(uuid "7b6ec368-31b6-496a-801f-627a31f16826")
 			(effects
 				(font
@@ -4203,6 +4873,112 @@
 			(project "PanTermPCB"
 				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 33.02)
+		(size 12.7 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dfd0d375-39d3-4984-aee8-60ced2e14f46")
+		(property "Sheetname" "BAT_CHRG"
+			(at 15.24 32.3084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BAT_CHRG.kicad_sch"
+			(at 15.24 51.3846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" passive
+			(at 27.94 35.56 0)
+			(uuid "d8e76283-a3aa-4689-96b4-dc5b4e3c4731")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BAT" passive
+			(at 27.94 38.1 0)
+			(uuid "b520b0fe-1981-4ea7-9b80-86eb283ed3ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_OUT" passive
+			(at 27.94 40.64 0)
+			(uuid "3c0eb2ab-9a2d-41fe-8df8-08e0786e86bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STAT1" passive
+			(at 27.94 43.18 0)
+			(uuid "9726b635-647c-454e-8914-c403a259d7b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STAT2" passive
+			(at 27.94 48.26 0)
+			(uuid "19a63630-fb4a-47e3-9d67-9bfbd3620f9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCC_3V3" passive
+			(at 27.94 45.72 0)
+			(uuid "273f8839-b022-4ace-a629-afaecbb286ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PanTermPCB"
+				(path "/0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
+					(page "4")
 				)
 			)
 		)

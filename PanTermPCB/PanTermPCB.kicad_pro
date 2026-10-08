@@ -582,12 +582,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -632,7 +656,7 @@
         "uuid": "0f7602b6-b152-4bab-aa09-ef6f8b33e1aa"
       }
     ],
-    "used_designators": "",
+    "used_designators": "CN1,#PWR25-27",
     "variants": []
   },
   "sheets": [
@@ -647,6 +671,14 @@
     [
       "cca776d7-8a39-4fb3-b8fc-b066a7735e34",
       "POWER"
+    ],
+    [
+      "dfd0d375-39d3-4984-aee8-60ced2e14f46",
+      "BAT_CHRG"
+    ],
+    [
+      "56e32f75-fdc0-4e97-8670-09f2edcb07f6",
+      "KeyBoard"
     ]
   ],
   "text_variables": {},
